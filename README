@@ -1,3 +1,10 @@
+I DID THIS WRONG ACTUALLY, CUZ I THINK IF YOU `hg pull -u` IT WILL ERASE THE `.git` DIRECTORY, BLIMEY, SO MAYBE WHAT WE DO IS LEAVE THIS UNTIL I'M NO SO LAZY TO REDO IT **CORRECTLY**.  TO DO IT **CORRECTLY**:
+    - make new repository named maybe `mod_prosody` and inside of that immediate repo dir:
+        - `git init && git remote add origin git@github.com:the8woodcutter/mod_prosody && hg clone https://hg.prosody.im/prosody-modules/ prosody-modules && git add . && git commit -m "INITIAL COMMIT"`
+    - i think this will do, yes.
+
+
+
 prosody-modules
 ===============
 
